@@ -1,0 +1,30 @@
+#home-sec {
+    height: 100vh;
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+}
+
+.home {
+    position: absolute;
+    bottom: 2rem;
+    color: white;
+}
+
+
+.home h1 {
+    font-size: 4rem;
+    line-height: 3.4rem;
+}
+
+.home .title {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: -8px;
+    font-weight: 500;
+}
+
+.home .country {
+    font-size: 22px;
+}
