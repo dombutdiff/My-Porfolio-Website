@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM | Portfolio Website</title>
-    <link rel="stylesheet" href="./general.css">
-    <link rel="stylesheet" href="./header.css">
-    <link rel="stylesheet" href="./home.css">
-    <link rel="stylesheet" href="./about.css">
+    <link rel="stylesheet" href="/styles/general.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/about.css">
 
 
     <!-- REMIX ICON -->
@@ -30,11 +30,11 @@
 
             <div class="header-links">
                 <ul>
-                    <li><a href="#home-sec">HOME</a></li>
-                    <li><a href="#about-sec">ABOUT</a></li>
-                    <li><a href="#services-sec">SERVICES</a></li>
-                    <li><a href="#projects-sec">PROJECTS</a></li>
-                    <li><a href="">CONTACT ME</a></li>
+                    <li><a href="#home-sec" class="nav-links">HOME</a></li>
+                    <li><a href="#about-sec" class="nav-links">ABOUT</a></li>
+                    <li><a href="#services-sec" class="nav-links">SERVICES</a></li>
+                    <li><a href="#projects-sec" class="nav-links">PROJECTS</a></li>
+                    <li><a href="#">CONTACT ME</a></li>
                 </ul>
 
                 <div class="close-btn">
@@ -50,16 +50,28 @@
         <!-- HOME -->
         <section id="home-sec">
             <div class="home">
-                <h1>Darwin Melendres</h1>
-                <p class="title">Frontend Web Developer</p>
-                <p class="country">Based in the Philippines</p>
+                <h1>Frontend Developer</h1>
+                <!-- <p class="title">Frontend Web Developer</p>
+                <p class="country">Based from the <span>Philippines</span></p> -->
             </div>
         </section>
 
         <section id="about-sec">
             <div class="about">
                 <h1>ABOUT ME</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, facilis earum officiis corporis ea quia? Ipsa distinctio doloribus cumque, veritatis vel voluptas beatae provident quibusdam quas ratione velit dolorum, totam culpa doloremque commodi fuga maxime nesciunt inventore expedita reprehenderit impedit. Quod nihil aliquam in praesentium ex. Cumque, accusamus nihil. Distinctio suscipit ea eius consectetur hic, aut dolorem architecto placeat sunt.</p>
+                <div class="about-img">
+                    <img class="about-profile" src="./images/profile.jpeg" alt="">
+                </div>
+
+                <div class="about-info">
+                    <p class="about-name">Hi, I'm <span class="about-info-name">Darwin</span></p>
+                    <p class="role-location"> <span class="about-info-role"> FrontEnd Web Developer | Graphic Designer | Video Editor </span>based in the <span class="about-info-location"> Philippines </span></p>
+                </div>
+
+                <div class="about-btns">
+                    <button class="btns about-my-resume">My resume</button>
+                    <button class="btns about-contact-me">Contact me</button>
+                </div>
             </div>
         </section>
         <section id="services-sec">
