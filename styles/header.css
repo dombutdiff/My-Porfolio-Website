@@ -60,7 +60,7 @@
     transition: top 0.2s;
 }
 
-.header-links a {
+.nav-links {
     display: flex;
     justify-content: center;
     align-items: center;
