@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="/styles/home.css">
     <link rel="stylesheet" href="/styles/about.css">
     <link rel="stylesheet" href="./styles/services.css">
+    <link rel="stylesheet" href="./styles/projects.css">
+    <link rel="stylesheet" href="./styles/contact.css">
 
 
     <!-- REMIX ICON -->
@@ -35,7 +37,7 @@
                     <li><a href="#about-sec" class="nav-links">ABOUT</a></li>
                     <li><a href="#services-sec" class="nav-links">SERVICES</a></li>
                     <li><a href="#projects-sec" class="nav-links">PROJECTS</a></li>
-                    <li><a href="#contact-me-sec">CONTACT ME</a></li>
+                    <li><a href="#contact-me-sec" class="nav-links">CONTACT ME</a></li>
                 </ul>
 
                 <div class="close-btn">
@@ -82,35 +84,84 @@
                   <hr>
                   <div class="container">
                     <div class="label">Web Development</div>
-                    <div class="content">I convert design into a real website.</div>
+                    <p class="content">I convert design into a real website.
+                    </p>
                   </div>
                   <hr>
                   <div class="container">
                     <div class="label">Web Design</div>
-                    <div class="content">I design a website using canva.
-              </div>
+                    <p class="content">I design a website using canva.
+                    </p>
                   </div>
                   <hr>
                   <div class="container">
                     <div class="label">Video Editing</div>
-                    <div class="content">I edit a video depending on what client's need.</div>
+                    <p class="content">I edit a video depending on what client's need.</p>
                   </div>
                   <hr>
                   
         </section>
         <section id="projects-sec">
-            <div class="about">
-                <h1>Projects.</h1>
+            <h1>Projects.</h1>
+            <div class="projects">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, facilis earum officiis corporis ea quia? Ipsa distinctio doloribus cumque, veritatis vel voluptas beatae provident quibusdam quas ratione velit dolorum, totam culpa doloremque commodi fuga maxime nesciunt inventore expedita reprehenderit impedit. Quod nihil aliquam in praesentium ex. Cumque, accusamus nihil. Distinctio suscipit ea eius consectetur hic, aut dolorem architecto placeat sunt.</p>
             </div>
         </section>
 
-        <section id="contact-me-sec">
-            <div class="contact-me">
-                <h1>Contact Me.</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae consectetur excepturi doloremque dolorem, ratione ullam aperiam ducimus, temporibus magni rerum ipsum error doloribus magnam eveniet laudantium nam culpa est perferendis.</p>
+        <section class="contact section" id="contact-me-sec">
+            <h1 class="contact-title container">Contact Me.</h1>
+            <div class="contacts">
+                <div class="contact-info">
+                    <div class="contact-icon">
+                        <i class="ri-phone-fill icon"></i>
+                    </div>
+                    <div class="contact-description">
+                        <h3 class="contact-head">Call me</h3>
+                        <p class="contact-body">0915 - 118 - 8491</p>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-icon">
+                        <i class="ri-mail-fill icon"></i>
+                    </div>
+                    <div class="contact-description">
+                        <h3 class="contact-head">Email</h3>
+                        <p>
+                            <a href="#" class="contact-body email-link">darwinorquin16@gmail.com</a>
+                        </p>
+                            
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-icon">
+                        <i class="ri-map-pin-2-fill icon"></i>
+                    </div>
+                    <div class="contact-description">
+                        <h3 class="contact-head">Location</h3>
+                        <p class="contact-body">Calbayog City, Samar</p>
+                    </div>
+                </div>
             </div>
-        </section>
+               
+            <form class="contact__form container" id="contact-form" >
+                  <input class="name" type="text" name="user_name" placeholder="Name" required>
+
+                  <input class="email" type="email" name="user_email" placeholder="Email" required>
+
+                  <input class="subject" type="text" name="user_subject" placeholder="Subject">
+
+                  <textarea class="message" name="user_message" id="message" cols="30" rows="10" placeholder="Message..."></textarea>
+                  
+                  <p class="contact__message" id="contact-message"></p>
+
+                  <button class="contact-btn">
+                     <i class="ri-send-plane-fill send-icon"></i>
+                     Send Message
+                  </button>
+            </form>
+         </section>
+      </main>
+
     </main>
 
     <footer></footer>
