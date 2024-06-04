@@ -7,9 +7,6 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth ;
-}
 
 ul a {
     text-decoration: none;
@@ -17,4 +14,8 @@ ul a {
 
 li {
     list-style: none;
+}
+
+p {
+    font-size: 16px;
 }
