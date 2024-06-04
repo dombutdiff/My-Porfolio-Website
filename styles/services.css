@@ -6,7 +6,7 @@
 .accordion h1 {
     text-align: center;
     margin-bottom: 20px;
-    font: 3rem;
+    font-size: 3rem;
   }
   
   /* Sets the width for the accordion. Sets the margin to 90px on the top and bottom and auto to the left and right */
