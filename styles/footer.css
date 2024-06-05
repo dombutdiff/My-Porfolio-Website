@@ -1,20 +1,9 @@
 footer {
-    background-color: rgb(244, 244, 244);
-    position: relative;
-}
-
-.footer-author {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 4rem;
+    height: 30vh;
+    background-color: black;
+    color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.footer-author p {
-    font-size: 14px;
-    color: white;
 }

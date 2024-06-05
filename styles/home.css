@@ -11,16 +11,29 @@
 
 .home {
     position: absolute;
-    bottom: 3rem;
+    bottom: 5rem;
     color: white;
 }
 
-.home h1 {
-    font-size: 4rem;
-    line-height: 3.4rem;
+.home p {
+    font-size: 1.3rem;
+    padding-left: 4px;
 }
 
-.home .title {
+.home h1 {
+    font-size: 4.2rem;
+    line-height: 3.4rem;
+    margin-top: -15px;
+}
+
+.swipe {
+    position: absolute;
+    bottom: 1rem;
+    color: white;
+    padding-left: 4px;
+}
+
+/* .home .title {
     font-size: 25px;
     margin-top: 10px;
     margin-bottom: -8px;
@@ -34,4 +47,4 @@
 .home .country span {
     font-weight: bold;
     font-size: 26px;
-}
+} */

@@ -31,6 +31,7 @@ document.body.addEventListener("click", (event) => {
   }
 });
 
+// ACCORDION FOR SERVICES SECTION
 const accordion = document.getElementsByClassName("container");
 
 for (i = 0; i < accordion.length; i++) {
@@ -39,50 +40,29 @@ for (i = 0; i < accordion.length; i++) {
   });
 }
 
-// // Get the header element
-// const header = document.querySelector(".header");
+// send message
+const contactForm = document.getElementById("contact-form"),
+  contactMessage = document.getElementById("contact-message");
 
-// // Check the background color of the header and change text color accordingly
-// const changeTextColor = () => {
-//   const backgroundColor = window
-//     .getComputedStyle(header)
-//     .getPropertyValue("background-color");
-//   const navLogoName = document.querySelector(".nav__logo-name");
-//   const toggleMenu = document.querySelector(".toggle-menu");
+const sendEmail = (e) => {
+  e.preventDefault();
 
-//   if (backgroundColor === "rgb(255, 255, 255)") {
-//     // If background color is white, change text color to black
-//     navLogoName.style.color = "black";
-//     toggleMenu.style.color = "black";
-//   } else {
-//     // Otherwise, change text color to white
-//     navLogoName.style.color = "white";
-//     toggleMenu.style.color = "white";
-//   }
-// };
+  emailjs
+    .sendForm(
+      "service_yr1jpnu",
+      "template_nm1a37g",
+      "#contact-form",
+      "LLwMpz-LuEAdFwvo5"
+    )
+    .then(() => {
+      contactMessage.textContent = "Message Sent Successfully";
 
-// // Call the function initially
-// changeTextColor();
+      setTimeout(() => {
+        contactMessage.textContent = "";
+      }, 5000);
 
-// // Listen for scroll events and call the function
-// window.addEventListener("scroll", changeTextColor);
+      contactForm.reset();
+    });
+};
 
-// // Get the header element
-// const header = document.querySelector(".header");
-
-// // Function to check the background color of the content and adjust the header's background color
-// const adjustHeaderBackground = () => {
-//   // Get the background color of the content
-//   const contentBackgroundColor = window
-//     .getComputedStyle(document.body)
-//     .getPropertyValue("background-color");
-
-//   // Set the header's background color based on the content's background color
-//   header.style.backgroundColor = contentBackgroundColor;
-// };
-
-// // Call the function initially
-// adjustHeaderBackground();
-
-// // Listen for scroll events and call the function
-// window.addEventListener("scroll", adjustHeaderBackground);
+contactForm.addEventListener("submit", sendEmail);
