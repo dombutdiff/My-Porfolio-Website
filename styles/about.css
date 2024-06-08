@@ -1,77 +1,135 @@
-#about-sec {
-    height: 100vh;
-    padding-top: 55px;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
-    background-color: white;
-}
+    #about-sec {
+        height: 100vh;
+        padding-top: 55px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        background-color: white;
+    }
 
-.about h1 {
-    font-size: 1.5rem;
-    text-align: center;
-    font-weight: 600;
-    margin-top: 15px;
-}
+    .about h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: 600;
+        margin-top: 15px;
+    }
 
-.about-img {
-    width: 260px;
-    margin: auto;
-    padding-top: 10px;
-}
+    .about-img {
+        width: 260px;
+        margin: auto;
+        padding-top: 10px;
+    }
 
-.about-profile {
-    width: 100%;
-}
+    .about-profile {
+        width: 100%;
+    }
 
-.short-bio {
-    line-height: 1.4rem;
-    text-align: justify;
-    margin-top: 5px;
-    font-size: 16px;
-}
+    .short-bio {
+        line-height: 1.4rem;
+        text-align: justify;
+        margin-top: 5px;
+        font-size: 16px;
+    }
 
-.short-bio span {
-    font-weight: 600;
-}
+    .short-bio span {
+        font-weight: 600;
+    }
 
-.about-btns {
-    margin-top: 2.5rem;
-}
+    .about-btns {
+        margin-top: 2.5rem;
+    }
 
-.about-btns .btns {
-    padding: 10px 20px;
-    border: 1px solid black;
-    margin-right: 5px;
-}
+    .about-btns .btns {
+        padding: 10px 20px;
+        border: 1px solid black;
+        margin-right: 5px;
+    }
 
-.about-my-resume {
-    background: black;
-    color: white;
-    transition: opacity 0.2s;
-}
+    .about-my-resume {
+        background: black;
+        color: white;
+        transition: opacity 0.2s;
+    }
 
-.about-my-resume:hover {
-    opacity: 0.8;
-}
+    .about-my-resume:hover {
+        opacity: 0.8;
+    }
 
-.discover-my-work {
-    background: none;
-    transition: color 0.3s,
-    background 0.3s;
-}
+    .discover-my-work {
+        background: none;
+        transition: color 0.3s,
+        background 0.3s;
+    }
 
-.discover-my-work:hover{
-    background: black;
-    color: white;
-}
+    .discover-my-work:hover{
+        background: black;
+        color: white;
+    }
 
-.discover-my-work a {
-    color: black;
-    text-decoration: none;
-}
+    .discover-my-work a {
+        color: black;
+        text-decoration: none;
+    }
 
-.discover-my-work:hover a {
-    color: white;
-    text-decoration: none;
-} 
+    .discover-my-work:hover a {
+        color: white;
+        text-decoration: none;
+    } 
+/* 
+    .about-info {
+        font-size: 20px;
+    }
+
+    .about-name {
+        margin-top: 10px;
+        margin-bottom: 1px;
+    }
+
+    .about-info-name {
+        font-weight: 600;
+    }
+
+    .about-info-role {
+        font-weight: 600;
+    }
+
+    .about-info-location {
+        font-weight: 600;
+    }
+
+    .about-btns .btns {
+        padding: 10px 20px;
+        border: 1px solid black;
+        margin-right: 5px;
+    }
+
+    .about-my-resume {
+        background: black;
+        color: white;
+        transition: opacity 0.2s;
+    }
+
+    .about-my-resume:hover {
+        opacity: 0.8;
+    }
+
+    .about-contact-me {
+        background: none;
+        transition: color 0.3s,
+        background 0.3s;
+    }
+
+    .about-contact-me:hover{
+        background: black;
+        color: white;
+    }
+
+    .about-contact-me a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .about-contact-me:hover a {
+        color: white;
+        text-decoration: none;
+    } */

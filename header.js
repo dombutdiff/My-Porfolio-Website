@@ -31,6 +31,17 @@ document.body.addEventListener("click", (event) => {
   }
 });
 
+// CHANGE NAVBAR COLOR WHEN SCROLL
+document.addEventListener("scroll", () => {
+  const headerEl = document.querySelector("header");
+
+  if (window.scrollY > 710) {
+    headerEl.classList.add("scrolled");
+  } else {
+    headerEl.classList.remove("scrolled");
+  }
+});
+
 // ACCORDION FOR SERVICES SECTION
 const accordion = document.getElementsByClassName("container");
 
@@ -40,7 +51,7 @@ for (i = 0; i < accordion.length; i++) {
   });
 }
 
-// send message
+// SEND MESSAGE
 const contactForm = document.getElementById("contact-form"),
   contactMessage = document.getElementById("contact-message");
 

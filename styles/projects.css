@@ -1,8 +1,10 @@
 #projects-sec {
-    height: 100vh;
+    /* max-height: 160vh;
+    height: 100%; */
     padding-top: 55px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 5rem;
     background-color: white;
 }
 
@@ -10,4 +12,16 @@
     font-size: 1.5rem;
         text-align: center;
         font-weight: 600;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project img {
+    width: 280px;
+    height: 320px;
 }
